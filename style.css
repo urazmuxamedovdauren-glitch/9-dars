@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: #302C42;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.logo{
+    width: 60px;
+}
+.hydra{
+    margin-bottom: 15px;
+    width:50px;
+}
+.navbar a{
+    color: white;
+    font-size: small;  
+}
+
+
+
+#section1{
+    padding-top: 30px;
+    background-color: #302C42;
+    padding-bottom: 90px;
+}
+.section1{
+    display: flex;
+    gap: 200px;
+}
+.dive{
+    color: white;
+}
+.virtual{
+    color: white;
+}
+.lorem{
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+.button{
+    padding: 15px;
+    background-color: #C0B7E8;
+    color: #8176AF;
+    border-radius: 40px;
+    
+}
+
+
+#section2{
+    background-color: #302C42;
+    padding-bottom: 80px;
+}
+.section2{
+    background-color: #211E2E;
+    display: flex;
+    color: white;
+    border-radius: 90px;
+    gap: 25px;
+}
+
+
+
+#section3{
+    background-color: #302C42;
+}
+
+#section4{
+    background-color: #302C42;
+    padding-bottom: 100px;
+}
+
+#section5{
+    background-color: #302C42;
+}
+.section5{
+    background-image: url(./backround\ ima.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.hardware{
+    text-align: center;
+    color: white;
+}
+.used{
+    color: white;
+    text-align: center;
+}
